@@ -20,4 +20,4 @@ $ git merge origin YOUR_BRANCH_NAME
 Or, you can simply use git pull to perform both commands at once:
 
 $ git pull origin YOUR_BRANCH_NAME
-# Grabs online updates and merges them with your local work
+# Grabs online updates and merges them with your local workN
