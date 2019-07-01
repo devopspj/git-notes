@@ -1,0 +1,32 @@
+Few Points about Git commit command :
+
+-> git commit commits the staged snapshot to the project history.
+
+-> "git commit" command only saves a new commit object in the local Git repository.
+
+Important Options
+-m <message>
+
+-> Sets the commit's message. 
+-> Make sure to provide a concise description that helps your teammates (and yourself) understand what happened.
+
+$ git commit -m "Change titles and styling on homepage"
+
+
+-a
+
+-> Includes all currently changed files in this commit. Keep in mind, however, that untracked (new) files are not included.
+
+$ git commit -a -m "Change titles and styling on homepage"
+
+
+--amend
+
+-> Rewrites the very last commit with any currently staged changes and/or a new commit message. 
+-> Git will rewrite the last commit and effectively replace it with the amended one. 
+-> Note that such a rewriting of commits should only be performed on commits that have not been pushed to a remote repository, yet.
+
+$ git commit --amend -m "New commit message"
+
+
+For more info : https://www.git-tower.com/learn/git/commands/git-commit
