@@ -1,0 +1,3 @@
+Q - New pull request in git
+
+Q -> How to add reviewers in github 
